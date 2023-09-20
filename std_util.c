@@ -17,3 +17,8 @@ int std_util_print(char *s)
 	printf("Your message: %s",s);
 	return 0;
 }
+
+void std_util_memcpy(uint8_t *s, uint8_t *d, size_t size)
+{
+	memcpy(s, d, size);
+}
