@@ -22,3 +22,10 @@ void std_util_memcpy(uint8_t *s, uint8_t *d, size_t size)
 {
 	memcpy(s, d, size);
 }
+
+void std_util_swap_long(long *a, long *b)
+{
+	long c = *a;
+	*a = *b;
+	*b = c;
+}
