@@ -29,3 +29,10 @@ void std_util_swap_long(long *a, long *b)
 	*a = *b;
 	*b = c;
 }
+
+void std_util_swap_char(char *a, char *b)
+{
+	char c = *a;
+	*a = *b;
+	*b = c;
+}
